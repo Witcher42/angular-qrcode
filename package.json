@@ -1,6 +1,6 @@
 {
-  "name": "angular-qrcode",
-  "version": "6.0.3",
+  "name": "angular-qrcode-it",
+  "version": "6.0.4",
   "description": "QR Code elements for AngularJS.",
   "keywords": [
     "angular",
@@ -9,23 +9,25 @@
   ],
   "homepage": "http://monospaced.github.io/angular-qrcode/",
   "main": "angular-qrcode.js",
-  "bugs": "http://github.com/monospaced/angular-qrcode/issues",
-  "license" : "MIT",
-  "repository" : {
-    "type" : "git",
-    "url" : "http://github.com/monospaced/angular-qrcode"
+  "bugs": {
+    "url": "http://github.com/monospaced/angular-qrcode/issues"
   },
-  "author": {
-    "name" : "Scott Boyle",
-    "email" : "scott@monospaced.com",
-    "url" : "http://scottboyle.co.uk/about"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/monospaced/angular-qrcode.git"
   },
+  "author": "Scott Boyle <scott@monospaced.com> (http://scottboyle.co.uk/about)",
   "files": [
     "angular-qrcode.js",
     "package.json"
   ],
   "dependencies": {
     "angular": ">=1.0.6",
-    "qrcode-generator": "git://github.com/monospaced/bower-qrcode-generator.git#0.0.2"
+    "qrcode-generator": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

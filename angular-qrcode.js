@@ -1,8 +1,14 @@
 /*
- * angular-qrcode v6.0.3
+ * angular-qrcode-it v6.0.4
  * (c) 2013 Monospaced http://monospaced.com
  * License: MIT
  */
+
+(function(window, angular, undefined) {
+
+'use strict';
+
+var qrcode = require('qrcode-generator');
 
 angular.module('monospaced.qrcode', [])
   .directive('qrcode', ['$window', function($window) {
@@ -28,7 +34,7 @@ angular.module('monospaced.qrcode', [])
         };
 
     return {
-      restrict: 'E',
+      restrict: 'AE',
       template: '<canvas class="qrcode"></canvas>',
       link: function(scope, element, attrs) {
         var domElement = element[0],
@@ -188,3 +194,4 @@ angular.module('monospaced.qrcode', [])
       }
     };
   }]);
+})(window, window.angular);
