@@ -1,5 +1,7 @@
-Angular QR Code *it*
+[DEBPRECATED] Angular QR Code *it*
 ====================
+
+> [angular-qrcode](https://github.com/monospaced/angular-qrcode) now support both element and attribute, I will close this repository some days later.
 
 *This repository is forked from [angular-qrcode](https://github.com/monospaced/angular-qrcode) written by [monospaced](https://github.com/monospaced). And it's based on v6.0.3 of angular-qrcode.*
 
